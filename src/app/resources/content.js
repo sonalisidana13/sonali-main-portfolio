@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Sonali",
+  lastName: "Sidana",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Product Engineer",
+  avatar: "/images/sonali-profile.jpeg",
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: [], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,22 +29,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/sonalisidana13",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/sonali-sidana-1310/",
   },
   {
     name: "X",
     icon: "x",
-    link: "",
+    link: "https://x.com/SonaliSidana",
   },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "sonalisidana13@gmail.com",
   },
 ];
 
@@ -55,7 +55,7 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+      I'm Sonali, a product engineer at <InlineCode>Digii</InlineCode>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -81,9 +81,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I'm Sonali Sidana, a Senior Product Engineer at Digii, 
+        where I craft scalable systems and intuitive user experiences.
+        Beyond work, I love exploring new technologies, optimizing system architectures, 
+        and working on my own projects to push creative and technical boundaries.
       </>
     ),
   },
@@ -92,9 +93,9 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Digii",
+        timeframe: "Jul 2022 - Present",
+        role: "Senior Product Engineer",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -116,9 +117,9 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Digii",
+        timeframe: "Aug 2020 - Jun 2022",
+        role: "Product Engineer",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
@@ -131,6 +132,22 @@ const about = {
         ],
         images: [],
       },
+      {
+        company: "Digii",
+        timeframe: "Aug 2019 - Jul 2020",
+        role: "Engineering Intern",
+        achievements: [
+          <>
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
+          </>,
+          <>
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
+          </>,
+        ],
+        images: [],
+      }
     ],
   },
   studies: {
@@ -138,12 +155,14 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Vellore Institute of Technology, Vellore (VIT)",
+        timeframe: "Jul 2018 - Jun 2020",
+        description: <>Master of Computer Applications</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "MCM DAV College For Women, Chandigarh",
+        timeframe: "Jul 2015 - Jun 2018",
+        description: <>Bachelor of Computer Applications</>
       },
     ],
   },
