@@ -55,9 +55,11 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Sonali, a product engineer at <InlineCode>Digii</InlineCode>, where I
-      craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I am Sonali, a <InlineCode> Product Engineer </InlineCode> with
+      expertise in building scalable, high-performance web applications.
+      <br /> With a strong foundation in Java, Spring Boot, AngularJs, MySQL and AWS, I
+      specialize in designing and implementing end-to-end solutions that enhance
+      user experience and system efficiency.
     </>
   ),
 };
@@ -211,7 +213,7 @@ const about = {
         title: "Programming & Frameworks",
         description: [
           <>Frontend: HTML, CSS, JavaScript, AngularJS, ReactJS, Bootstrap</>,
-          <>Backend: Java, Spring Boot</>
+          <>Backend: Java, Spring Boot</>,
         ],
         // optional: leave the array empty if you don't want to display images
         images: [],
@@ -220,7 +222,7 @@ const about = {
         title: "Databases & Cloud Services",
         description: [
           <>Databases: MySQL, NoSQL, Elasticsearch</>,
-          <>Cloud & DevOps: AWS (S3, Lambda, EC2, Athena, RDS, CloudWatch)</>
+          <>Cloud & DevOps: AWS (S3, Lambda, EC2, Athena, RDS, CloudWatch)</>,
         ],
         // optional: leave the array empty if you don't want to display images
         images: [],
@@ -228,7 +230,7 @@ const about = {
       {
         title: "Other Tools & Expertise",
         description: [
-          <>Git, REST APIs, System Architecture, Data Structures</>
+          <>Git, REST APIs, System Architecture, Data Structures</>,
         ],
         // optional: leave the array empty if you don't want to display images
         images: [],
@@ -252,6 +254,14 @@ const work = {
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
+
+const projects = {
+  label: "Projects",
+  title: "My projects",
+  description: `Design and dev projects by ${person.name}`,
+  // Create new project pages by adding a new .mdx file to app/projects/posts
+  // All projects will be listed on the /projects route
+}
 
 const gallery = {
   label: "Gallery",
@@ -332,4 +342,4 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work, gallery, projects };
