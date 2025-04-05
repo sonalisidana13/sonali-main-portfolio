@@ -1,11 +1,9 @@
 import {
   Avatar,
-  Button,
   Column,
   Flex,
   Heading,
   Icon,
-  IconButton,
   SmartImage,
   Tag,
   Text,
