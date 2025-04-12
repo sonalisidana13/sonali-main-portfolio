@@ -4,14 +4,13 @@ const withMDX = mdx({
   extension: /\.mdx?$/,
   options: {},
 });
-const isExport = process.env.EXPORT === 'true';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ["ts", "tsx", "md", "mdx"],
-  ...(isExport && { output: 'export' }),
+  output: 'export', // ← this is critical
   images: {
-    unoptimized: true, // Disable image optimization when using static export
+    unoptimized: true, // ← required for next/image to work in static exports
   },
 };
 
