@@ -10,6 +10,9 @@ const isExport = process.env.EXPORT === 'true';
 const nextConfig = {
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   ...(isExport && { output: 'export' }),
+  images: {
+    unoptimized: true, // Disable image optimization when using static export
+  },
 };
 
 export default withMDX(nextConfig);
