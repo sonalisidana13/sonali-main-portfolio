@@ -5,7 +5,6 @@ import {
   Flex,
   Text,
   Button,
-  Avatar,
   RevealFx,
   Column,
 } from "@/once-ui/components";
