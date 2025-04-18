@@ -8,7 +8,7 @@ const withMDX = mdx({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ["ts", "tsx", "md", "mdx"],
-  output: 'export', // ← this is critical
+  // output: 'export', // ← this is critical
   images: {
     unoptimized: true, // ← required for next/image to work in static exports
   },
